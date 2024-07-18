@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth of Austria’s Kingdom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .choice-button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .choice-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="game-container">
+        <h1>Elizabeth of Austria’s Kingdom</h1>
+        <p id="story-text">Join in with your fellow peasants to beat the evil king! Who has captured our beloved queen Elizabeth and plans to steal the throne.</p>
+        <button class="choice-button" onclick="makeChoice(1)">Start Adventure</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
